@@ -19,10 +19,10 @@ echo "<h1 align=center><font color=blue> $row1[1]</font></h1>";
 $rs=mysql_query("select * from mst_test where sub_id=$subid");
 if(mysql_num_rows($rs)<1)
 {
-	echo "<br><br><h2 class=head1> No Quiz for this Subject </h2>";
+	echo "<br><br><h2 class=head1> No Assesment available for this Subject </h2>";
 	exit;
 }
-echo "<h2 class=head1> Select Quiz Name to Give Quiz </h2>";
+echo "<h2 class=head1> Select Assesment Name </h2>";
 echo "<table align=center>";
 
 while($row=mysql_fetch_row($rs))

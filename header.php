@@ -40,11 +40,17 @@ scale= showall>
   <Table width="100%">
   <tr>
   <td>
-  <?php "Hi ".$_SESSION[login]; ?>
+  <?php 
+  $name = "User";
+  if (isset($_SESSION["login"]))
+	$name = $_SESSION["login"];
+	
+  "Hi ".$name; 
+  ?>
   </td>
     <td>
 	<?php
-	if(isset($_SESSION[login]))
+	if(isset($_SESSION["login"]))
 	{
 	 echo "<div align=\"right\"><strong><a href=\"index.php\"> Home </a>|<a href=\"signout.php\">Signout</a></strong></div>";
 	 }
