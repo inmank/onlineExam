@@ -1,0 +1,64 @@
+que_id,test_id,que_desc,ans1,ans2,ans3,ans4,true_ans
+68,8,What are the elements in communication system?,Transmitter-Receiver-voice-path,Sender-path-target-message,Transmitter-receiver-Digital Signal-desination,Transmitter- Medium- receiver- Data- Protocols,4
+69,8,Radio Transmission uses  ----------- signal?,Voice,LowFrequency,Analog,High Frequency,3
+70,8,Audio information’s can be converted into Digital form?,TRUE,FALSE,Can't Say,No enough information,1
+71,8,Data traffic inside computer is ----------- form?,Electronic,Anlog/Digital,Digital,Electrical,3
+72,8,In which transmission media the medium places an important role,Guided media,Analog,Digital,Unguided media,1
+73,8,Which of the following are  unguided medium of transmission,Radio frequency  transmission ,Microwave transmission,Infrared transmission,All of the above,4
+74,8,If the Bandwidth set in the transmission media is wrong then will the msg received properly?,TRUE,FALSE,Can't Say,No enough information,1
+75,8,Why  is the conductors are twisted in Twisted pair cable?,For better transmission,To increase the EMI ,Cancel cross talk ,Both c and d,4
+76,8,What are the different parts in coaxial cable?,inner conductor,dilectric spacer or insulator,metallic shield OR second conductor,All of the above,4
+77,8,Coaxial cable is used manily in transmitting-------- signals?,UV,Digital,RF,IR,3
+78,8,In optical Fiber for long distacnce communication------- is used?,Laser,LED,LIGHT,High frequency,1
+79,8,What is meant by Omni Directional signal?,Can go in one direction,spread in all direction,Receive in single antenna,Both a and c,2
+80,8,What is the range of IR Frequencies?,3*10pow(10) to 1 * 10pow(10),3 Hz  to 2 MHz,3*10pow(11) to 2*10pow(14),3THz to 2 MHz,3
+81,8,What is the range of Micro wave Frequencies?,3 Ghz to 40 Ghz,2GHz to 40 Ghz,4 Hz to 40 Hz,30 Mhz to 1Ghz,2
+82,8,In Rayleigh scattering losses ,vary directly with fourth power of wavelength,vary inversely with fourth power of wavelength,vary inversely with  square of wavelength,vary  proportionally to the fourth power of wavelength,2
+83,8,Absorption losses are  caused due to materials inside the fiber?,TRUE,FALSE,Can't Say,No enough information,1
+84,8,Dispersion is caused due to?,Loss in signal due  to  error in bandwidth,Loss in signal due to spread out in light pluse,Loss in signal due to error in impurities,None,2
+85,8,In Graded index fiber the refractive index is minimum at the axis and maximum as one goes radially outward?,TRUE,FALSE,Can't Say,No enough information,2
+86,8,Chromatic dispersion are caused due to?,different wavelengths of light travel at different speed to reach the destination,different wavelength of light travel at same speed but reach different destination,Same wavelength of light travel at different speed to reach same destination,None,1
+87,8,What is the capacity for single strand of Optical fiber?,30 Tbps,20 Tbps,10 Tpbs,5 Tbps,1
+88,8,Fiber is the limiting factor for High capacity?,TRUE,FALSE,Can't Say,No enough information,2
+89,8,Which range specifies C-Band?,1910nm - 1560nm,1570nm-1610nm,1530nm -1565nm,1610nm-1400nm,3
+90,8,Which range specifies L-Band?,1910nm - 1560nm,1570nm-1610nm,1530nm -1565nm,1610nm-1400nm,2
+91,8,In DWDM How many channels are allowed using 50GHz  channel spacing,88,44,0,120,1
+92,8,What is DWDM stands for?,Diverse Wavelength Division Multiplexing,Dual Wavelength Division Multiplexing,Dense Wavelength Division Multiplexing,Di-Polar Wavelength Division Multiplexing,3
+93,8,What is CWDM stands for?,Cloud Wavelength Division Multiplexing,Coarse Wavelength Division Multiplexing,Clean Wavelength Division Multiplexing,Center Wavelength Division Multiplexing,2
+94,8,CWDM typically uses ------------- spacing?,5 nm,10nm,20 nm,40 nm,3
+95,8,In DWDM How many channels are allowed using 100GHz  channel spacing,88,44,0,120,2
+96,8,In FlexLinks Channels can be  upto,114,120,100,Both a and b,4
+97,8,Which range specifies CWDM?,1270nm-1610nm,1910nm - 1560nm,1570nm-1610nm,1470nm-1610nm,1
+98,8,what is OT stands for?,Optical Transport,Optical Translayer,Optical Transponder,Optical Trail,3
+99,8,What is LD stands  for?,Line Drawer,Line Design,Line Driver,Load Driver,3
+100,8,What is WR Stands for?,Wavelength Router,Wavelength Rider,Wave Redesign,Wave Rider,1
+101,8,In ATM data is transferred in packets or cells of ------ size?,Variable,Random,Depends on Data,Always Fixed,4
+102,8,Ethernet works in ---------- topology?,Linear ,Star,Bus,both b and c,4
+103,8,OAMP stands for?,Operation- asynchronous- mode of Provisioning,Operation- administration- maintenance and Provisioning,Operation- accounting- management- Performance,Operability- accountability- management- Performance,2
+104,8,What is OC192 Bit rate?,9953.28Mbps,543.21 Mbps ,9953.28 Gbps ,99953.23 Bps,1
+105,8,OC768 equivalent SDH signal----------- STM?,STM-16,STM-64,STM-128,STM-256,4
+106,8,In a optical system at the receiving side which component receives the electrical signals?,Scrambler,Transponder,Photo diode,None,3
+107,8,In which media the signal loss is more?,Optical ,Glass,Electronics,Electrical,4
+108,8,Which mode  transmission allows light to travel for long distance?,Vaccum,Single,Multi,Mixed,2
+109,8,Change in direction of a wave due to change in velocity is called?,Refraction,Reflection,Difraction,Dispersion,1
+110,8,How many DS-0 signals equals one DS-1 signal?,4,8,12,24,4
+111,8,Where is the Lambda Xtreme Product deployed to greatest effect?,Long-Haul Networks,Metro Networks,Access Networks,All of the above,1
+112,8,At what rate do SONET and SDH differ?,STS – 1,STS – 3c,STS-12,STS-192,1
+113,8,Bit-stuffing is used to negate sync problems in SONET/SDH?,TRUE,FALSE,Can't Say,No enough information,2
+114,8,LambdaUnite can be used as a -----------------?,Switch,Add-Drop Multiplexer,Broad-band crossconnect,All of the above,4
+115,8,Raman Amplification principle is used in ------------------------ product?,LambdaUnite MSS,DMX Xtend Access Multiplexer,LambdaXtreme,All of the above,3
+116,8,XFP/SFP is used in packs for?,Interfacing the motherboards to the equipment,Nothing. They just look cool,Translating from one protocol to another,Anchoring the cables securely to the pack,1
+117,8,Which of the following is false about SONET/SDH?,It is used as a transport mechanism to move data from point to point,It is capable of carrying only certain types of protocols,It is capable of providing OAMP functionality.,It uses master-slave techniques for the clock synchronization functions,2
+118,8,Which NE was used in designing the 100 GBPS video streaming via broadband recently by Alcatel-Lucent for Verizon,Metropolis WSM,Lambda Xtreme,DMX,None of the above,2
+119,8,Bit rate of OC192 optical carrier is?,40 Gbps,5 Gbps,1 Gbps,10 Gbps,4
+120,8,In DWDM systems Optical Amplifiers are required for short distance transmission,TRUE,FALSE,Can't Say,No enough information,2
+121,8,Full Form of DCM is?,Diifraction Compensation Module,Dispersion Clearance Module,Dispersion Compensation Module,Dispersion Compensation Mode,3
+122,8,The NE in Alcatel-Lucent which supports TDM DWDM and Packet switching is?,WSM,Xtreme,1850 TSS,Unite,3
+123,8,The maximum number of channels supported by Lambda Xtreme product is?,64,128,256,None,2
+124,8,Can 1850 TSS be used for providing 3G mobile services like WiMax?,TRUE,FALSE,Can't Say,No enough information,1
+125,8,Full form of Wi-Fi?,Wireless Field,Wireless Fidelity,Wireless Function,Wireless Field,2
+126,8,Long Haul Networks supports which of the following topologies?,Ring,Mesh,Point to Point,All of the above,4
+127,8,Raman packs can be installed in?,OADM systems,ROADM systems,Repeaters,All of the above,4
+128,8,Which of the following are reasons why SONET/SDH was introduced?,A single unifying standard to enable ease of interconnection between networks,Capability to administer and monitor networks,Reducing equipment in networks,All of the above,4
+129,8,Optical Fibers work on the principle of?,Dispersion,Reflection,Refraction,Total Internal Reflection,4
+130,8,What is a Network Element in a SONET/SDH Network?,Terminal Multiplexer,Repeater,Optical Amplifier,All of the above,4

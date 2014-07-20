@@ -1,0 +1,68 @@
+que_id,test_id,que_desc,ans1,ans2,ans3,ans4,true_ans
+1,8,Which is a standard developed by ANSI for fiber-optic networks?,SONET,SDH,Both,None,1
+2,8,Which is a is a standard developed by ITU-T?,SONET,SDH,Both,None,2
+3,8,SONET has defined a hierarchy of signals called?,STSs,STMs,OTUs,ODUk,1
+4,8,SDH has defined a hierarchy of signals called?,STSs,STMs,OTUs,ODUk,2
+5,8,Which signal is the optical modulation of an STS-n (or STM-n) signal?,OC-n,TDM-n,FDM-n,None,1
+6,8,SONET defines How many layers?,two,three,four,five,3
+7,8,SONET is a _______ TDM system?,asynchronous,synchronous ,statistical,Autonomous,2
+8,8,A SONET system can use?,STS MUX,Regens,AD MUX,All of the above,4
+9,8,SONET sends ________ frames per second?,1000,2000,4000,8000,4
+10,8,In SONET each frame lasts _______ microseconds?,32,64,128,None,4
+11,8,An STS-1 frame is made of ________ rows?,1,9,90,900,2
+12,8,An STS-1 frame is made ______columns?,1,9,90,900,3
+13,8,An STS-3 frame is made of ______ rows?,1,9,27,None,2
+14,8,An STS-3 frame is made ______columns?,9,90,180,270,4
+15,8,SONET network topologies can be?,Linear,Ring,Mesh,Al of the above,4
+16,8,A linear SONET network can be?,Point-Point,Multi Point,Both,None,3
+17,8,A ring SONET network can be?,Uni-Directional,Bi-Directional,Both,None,3
+18,8,To make SONET backward-compatible with the current hierarchy its frame design includes a system of?,Ocs,STMs,STSs,VTs,4
+19,8,A ________ is a repeater?,Regenrator,A/D MUX,STS Mux,STS Demux,1
+20,8,__________ allow insertion and extraction of signals?,Regenrator,A/D MUX,STS Mux,None,2
+21,8,A _______ is the optical link connecting two neighbor devices?,Section,Line,Path,Link,1
+22,8,A ______ is the portion of the network between two multiplexers?,Section,Line,Path,None,2
+23,8,A ______is the end-to-end portion of the network between two STS multiplexers?,Section,Line,Path,None,3
+24,8,The ______ layer is responsible for the movement of a signal from its optical source to its optical destination?,Section,Line,Path,Photonic,3
+25,8,The ____ layer is responsible for the movement of a signal across a physical line?,Section,Line,Path,Photonic,2
+26,8,The ______ layer is responsible for the movement of a signal across a physical section?,Section,Line,Path,Photonic,1
+27,8,The _______ layer corresponds to the physical layer of the OSI model?,Section,Line,Path,Photonic,4
+28,8,An STS multiplexer is a ______ device?,Layer 1,Layer 2,Layer 3,Layer 4,4
+29,8,An add/drop multiplexer is a ______ device?,Layer 1,Layer 2,Layer 3,Layer 4,3
+30,8,A regenerator is a ________ device?,Layer 1,Layer 2,Layer 3,Layer 4,2
+31,8,In SONET for each frame the bytes are transmitted?,from left to the right;top to bottom,from right to the left;bottom to top,from left to the right;bottom to top,from right to the left;top to bottom,1
+32,8,In SONET for each byte the bits are transmitted?,from least significant to the most significant,from most significant to the least significant,two at a time,three at a time,2
+33,8,Each ________in a SONET frame can carry a digitized voice channel?,bit,byte,frame,None,2
+34,8,The section overhead consists of ______octets?,1,6,9,18,3
+35,8,Line overhead consists of ________ bytes?,1,6,9,18,4
+36,8,The path overhead consists of ______ bytes?,1,6,9,18,3
+37,8,In ________ APS there are normally two lines: one working line and oneprotection line. Both lines are active all the time?,1+1,1:one,1:many,None,1
+38,8,In ______ APS there is one working line and one protection line. The data are normally sent on the working line until it fails?,1+1,1:one,1:many,None,2
+39,8,In ________APS there is only one protection line for many working lines. When a failure occurs in one of the working lines the protection line takescontrol until the failed line is repaired?,1+1,1:one,1:many,None,3
+40,8,A basic multiplexer principle can be demonstrated through the use of a?,Single Pole Relay,DPDT Switch,Rotary switch,Linear Stepper,3
+41,8,One multiplexer can take the place of?,several SSI logic gates ,combinational logic circuits ,several Ex-NOR gates ,several SSI logic gates or combinational logic circuits,4
+42,8,How many select lines would be required for an 8-line-to-1-line multiplexer?,2,3,4,8,2
+43,8,What is the function of an enable input on a multiplexer chip?,to apply Vcc,to connect ground,to active the entire chip ,to active one half of the chip,3
+44,8,The inputs/outputs of an analog multiplexer/demultiplexer are?,bidirectional ,unidirectional ,even parity,binary-coded decimal,1
+45,8,Most demultiplexers facilitate which type of conversion?,decimal-to-hexadecimal,single input multiple outputs,ac to dc ,odd parity to even parity,2
+46,8,Why is a demultiplexer called a data distributor?,The input will be distributed to one of the outputs,One of the inputs will be selected for the output,The output will be distributed to one of the inputs,None,1
+47,8,Why can a CMOS IC be used as both a multiplexer and a demultiplexer?,It cannot be used as both,CMOS uses bidirectional switches,CMOS uses unidirectional switches,None,2
+48,8,One application of a digital multiplexer is to facilitate,data generation,serial-to-parallel conversion,parity checking,data selector,4
+49,8,The sharing of a medium and its link by two or more devices is called?,modulation ,encoding ,line discipline,multiplexing ,4
+50,8,Which multiplexing technique transmits analog signals?,FDM,TDM,WDM,(a) and ( C),4
+51,8,Which multiplexing technique transmits digital signals?,FDM,TDM,WDM,None,2
+52,8,Which multiplexing technique shifts each signal to a different carrier frequency?,FDM,TDM,Both,None,1
+53,8,In TDM the transmission rate of the multiplexed path is usually _______ the sum of the transmission rates of the signal sources?,greater than,less than,equal to,not related to,1
+54,8,Which multiplexing technique involves signals composed of light beams?,FDM,TDM,WDM,None,3
+55,8,____ can be achieved by using multiplexing and ______ can be achieved by using spreading?,Efficiency; privacy and antijamming ,Privacy and antijamming; efficiency ,Privacy and efficiency; antijamming ,Efficiency and antijamming; privacy,1
+56,8,_____ is the set of techniques that allows the simultaneous transmission of multiple signals across a single data link?,Demodulating ,Multiplexing ,Compressing ,None,2
+57,8,In a multiplexed system __ lines share the bandwidth of ____ link?,1: n,1; 1,n: 1,n: n,3
+58,8,___ is an analog multiplexing technique to combine optical signals?,FDM,TDM,WDM,None,3
+59,8,_____ is a digital process that allows several connections to share the high bandwidth of a link?,FDM,TDM,WDM,None,2
+60,8,_____ is a digital multiplexing technique for combining several low-rate channels into one high-rate one?,FDM,TDM,WDM,None,2
+61,8,________ boost the strength of the optical signal?,Optical Amplifiers,photo detectors,Core,Cladding,1
+62,8,Optical amplifiers are devices which are used to amplify the signals passing in optical fiber cables. One of the technologies used for manufacturing optical amplifiers is ________________?,Jaccop?s amplifiers,Copper Amplifier,Iorn Amplifier,Raman Amplifier,4
+63,8,Which of the following is an optical amplifiers?,Semiconductor optical amplifiers,Fiber Raman amplifiers,Rare earth doped amplifiers,All the above,4
+64,8,An optical amplifier is a device that amplifies an _______  Signal directly without the need to first convert it to an ______ signal?,Optical - Electrical,Electrical - Optical,Optical - Optical,Eletrical - Electrical,1
+65,8,A transponder is typically characterized by its?,Wavelength,Data rate,amplification,None,2
+66,8,Major functions of a fiber optic transponder includes?,Electrical and optical signals conversions,Control and monitoring,Both,None,3
+67,8,Pluggable is an interface between network device (mother board)  to an?,Amplifier,Transmitter,Fiberoptics Cable,None,3
