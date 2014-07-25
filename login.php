@@ -25,7 +25,9 @@ if(isset($submit))
 	}
 	else
 	{
+		$row = mysql_fetch_row($rs);
 		$_SESSION["login"]=$loginid;
+		$_SESSION["group"]=$row[5];
 	}
 }
 if (isset($_SESSION["login"]))
@@ -36,10 +38,10 @@ echo "<h1 class='style8' align=center>Welcome to Online Assesment</h1>";
     <td width="7%" height="65" valign="bottom"><img src="image/HLPBUTT2.JPG" width="50" height="50" align="middle"></td>
     <td width="93%" valign="bottom" bordercolor="#0000FF"> <a href="sublist.php" class="style4">Select Assesment </a></td>
   </tr>
-  <tr>
+  <!--<tr>
     <td height="58" valign="bottom"><img src="image/DEGREE.JPG" width="43" height="43" align="absmiddle"></td>
     <td valign="bottom"> <a href="result.php" class="style4">View Results </a></td>
-  </tr>
+  </tr>-->
 </table>';
    
 		exit;
@@ -57,7 +59,7 @@ echo "<h1 class='style8' align=center>Welcome to Online Assesment</h1>";
   </tr>
   <tr>
     <td height="296" valign="top"><div align="center">
-        <h1 class="style8">Wel come to Online Quiz</h1>
+        <h1 class="style8">Welcome to Online Quiz</h1>
       <span class="style5"><img src="image/paathshala.jpg" width="129" height="100"><span class="style7"><img src="image/HLPBUTT2.JPG" width="50" height="50"><img src="image/BOOKPG.JPG" width="43" height="43"></span>        </span>
         <param name="movie" value="english theams two brothers.dat">
         <param name="quality" value="high">
@@ -66,7 +68,7 @@ echo "<h1 class='style8' align=center>Welcome to Online Assesment</h1>";
         <param name="BGCOLOR" value="#FFFFFF">
 <p align="left" class="style5">&nbsp;</p>
       <blockquote>
-          <p align="left" class="style5"><span class="style7">ALU account automated assesment tool. You can test yor skills here.</span></p>
+          <p align="left" class="style5"><span class="style7">ALU account automated assessment tool. You can test your skills here.</span></p>
       </blockquote>
     </div></td>
     <td valign="top"><form name="form1" method="post" action="">

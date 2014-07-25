@@ -17,6 +17,12 @@ $rs1=mysql_query("select * from mst_subject where sub_id=$subid");
 $row1=mysql_fetch_array($rs1);
 echo "<h1 align=center><font color=blue> $row1[1]</font></h1>";
 $rs=mysql_query("select * from mst_test where sub_id=$subid");
+$rs1=mysql_query("select * from mst_result where login=".$_SESSION["login"]);
+if(mysql_num_rows($rs1)>0)
+{
+	echo "<br><br><h2 class=head1> Assesment already taken. </h2>";
+	exit;
+}
 if(mysql_num_rows($rs)<1)
 {
 	echo "<br><br><h2 class=head1> No Assesment available for this Subject </h2>";
@@ -30,6 +36,11 @@ while($row=mysql_fetch_row($rs))
 	echo "<tr><td align=center ><a href=quiz.php?testid=$row[0]&subid=$subid><font size=4>$row[2]</font></a>";
 }
 echo "</table>";
+
+echo "<h2>Instructions</h2>";
+echo "<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please don't click back button during the exam</h3>";
+echo "<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atleast one valid option must be selected.</h3>";
+
 ?>
 </body>
 </html>
